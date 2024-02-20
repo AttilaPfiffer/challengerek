@@ -52,9 +52,7 @@ span{
     color: white;
 }
 
-.velemenyo {
-    text-align: center;
-}
+
 
 article {
     margin: auto;
@@ -78,6 +76,23 @@ label {
 button {
     height: 50px;
     width: 150px;
+    text-align: center;
+}
+
+legend {
+    color: white;
+    text-align: left;
+}
+
+.kot_m {
+    text-align: left;
+}
+
+fieldset {
+    text-align: left;
+}
+p {
+    color: white;
 }
 
 @media (max-width: 600px) {
@@ -89,3 +104,4 @@ button {
     }
     
   }
+
