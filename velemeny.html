@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="style.css">
+    <title>Paróczi Levente, Pfiffer Attila</title>
+</head>
+    <body>
+        <main>
+        <header>
+            <h1>Viego, a letaszított király</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Történet</a></li>
+                <li><a href="#">Vélemény</a></li>
+            </ul>
+        </nav>
+        <article>
+            <div class="velemenyo">
+                <form>
+                    <br>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Név:</span>
+                        <input type="text" class="form-control">
+                    </div>
+                    <h4>Nem:</h4>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                        <label class="form-check-label" for="radio1">Férfi</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                        <label class="form-check-label" for="radio2">Nő</label>
+                    </div>
+                    <h4>Tetszett amit olvasott?</h4>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio3" name="radio" value="option1" checked>
+                        <label class="form-check-label" for="radio3">Igen</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio4" name="radio" value="option2">
+                        <label class="form-check-label" for="radio4">Nem</label>
+                    </div>
+                    <h4>Mennyire elégedett a történettel?</h4>
+                    <label id="customRange" class="form-label">
+                    </label>
+                    <input type="range" class="form-range">
+                    <h4>Írd meg a véleményed hogy mennyire tetszett!</h4>
+                    <div class="form-floating">
+                        <textarea class="form-control" id="comment" name="text" placeholder="..."></textarea>
+                        <label for="comment"></label>
+                    </div>
+                    <br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something">
+                        <label class="form-check-label">Elolvastam és elfogadtam az általános szerződési
+                            feltételeket.</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Elküld</button>
+                </form>
+            </div>
+        </article>
+
+        <footer>Paróczi Levente, Pfiffer Attila</footer>
+    </main>
+    </body>
+
+
+</html>
